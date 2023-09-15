@@ -2,12 +2,35 @@
     display:flex;
     align-items: center;
     border: 2rem solid;
-    border-color:#FF0353 ;
-    border-radius: 25px;
     width:500px;
     height:500px;
-    margin-left: 35%;
+    margin:auto;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    border-color:#689F38;
+    border-radius: 50px;
+    transition: width 0.5s, height 0.5s,border-color 0.5s;
+}
+.card:hover{
+    border-color:#CDDC39;
+    width:550px;
+    height:550px;
+}
+.cardholder{
+    padding:50px;
+}
+.heading__sticky{
+    position:sticky;
+    text-align: center;
+    background-color: #8BC34A;
+    top:5px;
+}
+.card__image{
+    height:275px;
+    width:300px;
+    border-radius:5px;
+}
+*{
+    font-family: 'Oswald', sans-serif;
 }
